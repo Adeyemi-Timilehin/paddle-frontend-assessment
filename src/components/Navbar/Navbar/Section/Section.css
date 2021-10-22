@@ -1,0 +1,90 @@
+
+h1{
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+}
+h1.header{
+color: #0B132A;
+width: 555px;
+height: 140px;
+text-shadow: 0px 2px 4px #BA55D3;
+box-shadow: 0px 2px 4px 0px #BA55D3;
+margin-top: 50px;
+}
+.paragraph{
+    font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color:  #4F5665;
+}
+.btn-start{
+width: 250px;
+height: 60px;
+border:none;
+color: #ffffff;
+padding: 17.5px 77.5px;
+background: #BA55D3;
+border-radius: 4px;
+}
+.sec{
+    height: 200px;
+width: 1140px;
+margin-top: 5%;
+border-radius: 10px;
+
+margin-left: 2%;
+background-color: #ffffff;
+
+}
+#user{
+   
+    width: 55px;
+    height: 55px;
+    background: rgba(186, 85, 211, 0.25);
+    border-radius: 70px;
+}
+.p{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 10px;
+    height:18px ;
+    width: 16.8px;
+
+background: #BA55D3;
+}
+.para2{
+    display: inline;
+}
+.content{
+    font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #0B132A;
+
+}
+.content-paragraph{
+    font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #4F5665;
+
+}
