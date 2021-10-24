@@ -6,7 +6,7 @@ function FirstSection() {
       <section className="row">
         <article className="col-6">
           <h1 className="header">We Are Everything We Aspire To BE</h1>
-          <p className="paragraph">
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac
             orci condimentum lectus efficitur tempor vel eu massa. Sed molestie
             turpis eget ipsum malesuada dignissim
@@ -19,7 +19,7 @@ function FirstSection() {
       </section>
       <section className="sec">
         <div className="row">
-          <div className="col-1">
+          <div className="offset-1 col-1">
             <p className="" id="user">
               <p className="p"></p>
             </p>

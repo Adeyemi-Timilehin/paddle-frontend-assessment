@@ -1,9 +1,10 @@
 #main{
   
-max-width: 95%;
+max-width: 80%;
+margin:auto;
 }
 #parent{
-  position: relative;
-left: 4%;
+  
+
 
 }

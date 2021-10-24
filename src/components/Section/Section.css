@@ -38,10 +38,10 @@ border-radius: 4px;
 .sec{
     height: 200px;
 width: 1140px;
-margin-top: 5%;
+
 border-radius: 10px;
 
-margin-left: 2%;
+margin:5% auto;
 background-color: #ffffff;
 
 }
@@ -86,5 +86,55 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 color: #4F5665;
+}
+.second_heading{
+    font-family: Rubik;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+Width :383.41px;
+Height :100px;
+}
+.paragraph{
+Width :427.88px;
+Height:60px;
+color:#4F5665;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.nav-item {
+Width :20px;
+Height: 20px;
+Radius :4px;
+color: #BA55D3;
+display:inline-block;
+background: #BA55D3;
+}
+.divider {
+    height: 760px;
+width: 330px;
+background: #FFFFFF;
+border: 2px solid #DDDDDD;
+box-sizing: border-box;
+border-radius: 10px;
+border-radius: 10px;
+
+}
+p{
+    font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
 
 }
