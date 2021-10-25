@@ -36,17 +36,14 @@ background: #BA55D3;
 border-radius: 4px;
 }
 .sec{
-    height: 200px;
+height: 200px;
 width: 1140px;
-
 border-radius: 10px;
-
 margin:5% auto;
 background-color: #ffffff;
 
 }
 #user{
-   
     width: 55px;
     height: 55px;
     background: rgba(186, 85, 211, 0.25);
@@ -137,4 +134,4 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 
-}
+}  
