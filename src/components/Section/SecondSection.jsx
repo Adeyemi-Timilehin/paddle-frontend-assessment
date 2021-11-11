@@ -2,12 +2,12 @@ import React from 'react'
 
 function SecondSection() {
     return (
-        <div>
+        <div className="container-fluid">
         <div className="row">
-        <div className="col-6">
-        <img src="web2.png" />
+        <div className="col">
+        <img src="web2.png" className="img-fluid" />
         </div>
-        <div className="offset-2 col-4">
+        <div className="col">
         <h1 className="second_heading">Features We Provide For You</h1>
         <p className="paragraph">Curabitur tempor justo non turpis malesuada cursus. Mauris ac libero eu sem finibus lacinia nec pulvinar.</p>
         <p>

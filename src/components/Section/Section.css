@@ -64,34 +64,28 @@ background: #BA55D3;
     display: inline;
 }
 .content{
-    font-family: Rubik;
-font-size: 25px;
-font-style: normal;
 font-weight: 700;
 line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
 color: #0B132A;
 
 }
-.content-paragraph{
+.content,.content-paragraph, .second_heading{
     font-family: Rubik;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.content-paragraph{
 font-size: 20px;
-font-style: normal;
 font-weight: 400;
 line-height: 30px;
-letter-spacing: 0em;
 text-align: left;
 color: #4F5665;
 }
 .second_heading{
-    font-family: Rubik;
 font-size: 35px;
-font-style: normal;
 font-weight: 500;
 line-height: 50px;
-letter-spacing: 0em;
-text-align: left;
 Width :383.41px;
 Height :100px;
 }
@@ -107,31 +101,87 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 }
-.nav-item {
-Width :20px;
-Height: 20px;
-Radius :4px;
-color: #BA55D3;
-display:inline-block;
-background: #BA55D3;
-}
-.divider {
-    height: 760px;
-width: 330px;
-background: #FFFFFF;
+.divider{
+    background: #FFFFFF;
 border: 2px solid #DDDDDD;
 box-sizing: border-box;
 border-radius: 10px;
-border-radius: 10px;
-
+padding: 20px 5em;
 }
-p{
+.btn-divider{
+    margin-top: 5px;
+    border: 2px solid #BA55D3;
+    background-color: #ffffff;
+    color: #BA55D3;
+    padding: 0.3em 3.5em;
+}
+.btn-divider--premuim{
+    margin-top: 5px;
+    border: 2px solid #BA55D3;
+    background-color: #BA55D3;
+    color:#fff ;
+    padding: 0.3em 3.5em;   
+}
+#nav-list{
+        list-style-type: none;
+}
+#nav-list li::before {
+    content: "✔";
+    padding-right: 10px;
+    color: rgb(34, 175, 69);
+  }
+  #nav-list li{
+      padding: 10px 1px;
+  }
+.btn-paddle{
     font-family: Rubik;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0em;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
 text-align: left;
 
-}  
+}
+button.btn-paddle{
+    color:#fff;
+    background-color: #BA55D3;
+    padding: .6em 3em;
+    border: none;
+}
+.paddle-top{
+    margin-top: 5em;
+}
+.partner{
+    width: 100px;
+    color: #DDE0E4;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.partner-round{
+    background-color: #DDE0E4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.img-flex{
+    display: flex;
+}
+.p-size{
+    font-weight: 400;
+}
+.row .testimonial{
+    background: #FFFFFF;
+border: 3px solid #BA55D3;
+box-sizing: border-box;
+border-radius: 4px;
+padding: 1.5em 2em;
+
+}
+.row .testimonial{
+    
+    margin-right: 7rem;
+}
